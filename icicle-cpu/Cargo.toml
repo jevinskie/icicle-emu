@@ -12,8 +12,8 @@ sleigh-runtime = { path = "../sleigh/sleigh-runtime" }
 target-lexicon = "0.12.14"
 tracing = { version = "0.1.40", default-features = false }
 object = { version = "0.32.2", default-features = false, features = ["read_core", "elf", "pe"] }
-bytemuck = "1.15.0"
-hashbrown = "0.14.3"
+bytemuck = "1.16.0"
+hashbrown = "0.14.5"
 half = "2.4.1"
 
 [dev-dependencies]

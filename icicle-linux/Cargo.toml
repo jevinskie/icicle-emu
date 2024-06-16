@@ -9,7 +9,7 @@ doctest = false
 [dependencies]
 bitflags = "2.5.0"
 bstr = { version = "1.9.1", default-features = false, features = ["std"] }
-bytemuck = "1.15.0"
+bytemuck = "1.16.0"
 icicle-cpu = { path = "../icicle-cpu" }
 sleigh-runtime = { path = "../sleigh/sleigh-runtime" }
 object = { version = "0.32.2", default-features = false, features = ["write", "read_core", "elf"] }
